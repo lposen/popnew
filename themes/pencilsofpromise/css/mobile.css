@@ -1,0 +1,258 @@
+/* Reset -----------------------------------------------------*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,hr,input,textarea,button{border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;background:transparent;margin:0;padding:0}body{line-height:1;color:#000;background:#2e2929;font-family:HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:300;font-size:12px}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:400}blockquote:before,blockquote:after,q:before,q:after{content:""}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}section,article,aside,nav{display:block}
+
+* {
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: none;
+}
+
+/* Styles ------------------------------------------------------*/
+
+body {
+	width: 320px;
+	background: #2e2929;
+	color: #fff;
+	font-family: "HelveticaNeue-Light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+a {
+	color: #e46877;
+	text-decoration: none;
+}
+
+#navigation {
+	position: relative;
+	height: 280px;
+	width: 21000px;
+	line-height: 17px;
+	background-color: transparent;
+	color: #666;
+	float: left;
+}
+
+body.iphone #navigation {
+	position: static;
+}
+
+
+#menu {
+width:180px;
+height:250px;
+margin: 90px -25px 5px 5px;
+float: right;
+}
+
+.nav{
+	list-style:none;
+}
+#menu a{
+font-family: Helvetica, sans-serif; font-size: 3.0em;
+text-transform: uppercase;
+line-height: 15px;
+font-size: 15px;
+background: #EEAB00;
+margin-top: 5px;
+z-index: 3;
+opacity: 0.7;
+padding: 10px;
+display: block;
+border-radius: 10px;
+color: white;
+font-weight: bold;
+}
+
+#menu a:hover{
+color: black;
+margin-left: -5px;
+-webkit-transition: all 0.3s;
+}
+
+#block {
+background: url("http://madewithpencils.pencilsofpromise.org/madewithpencils/assets/bottom-crosshatch.png");
+height: 480px;
+width: 10px;
+float:left;
+z-index: -3;}
+
+
+#titlecard {
+width:420px;
+float:left;}
+
+#titlecard-bg {
+background: black url("images/front.jpg") no-repeat -180px 5px;
+width:420px;
+height: 480px;}
+
+#floatcard {
+float:left;}
+
+#floatcard-bg {
+background: white;
+width:6300px;
+height: 480px;}
+
+#takeactioncard {
+width:420px;
+height: 480px;
+float:left;}
+
+#takeactioncard-bg {
+background: #EEAB00;
+width:420px;
+height: 480px;}
+
+#aboutuscard {
+width:420px;
+height: 480px;
+float:left;}
+
+#whoweare-bg {
+background: white;
+width:420px;
+height: 480px;}
+
+#whowearecard {
+width:420px;
+height: 480px;
+float:left;}
+
+#whowearecard-bg {
+background: white;
+width:420px;
+height: 480px;}
+
+#logo {
+position: fixed;
+top: 0;
+right: 0;
+z-index: 1000;
+margin-top: -10px;
+height: 80px;
+}
+
+#floatcard h2{
+font-size: 110px;
+padding: 50px;
+color: black;
+background: #EEAB00;
+font-weight: 800px;
+}
+
+#floatcard #one {
+margin-left: 5%;
+float:left;
+}
+
+#floatcard #two {
+margin-left: -2%;
+float:left;
+margin-top: 2%;
+}
+
+#floatcard #three {
+margin-left: -5%;
+float:left;
+margin-top: 4%;
+}
+
+#floatcard #four {
+margin-left: -1.3%;
+float:left;
+margin-top: 1.3%;
+}
+
+#floatcard #five {
+margin-left: -0.5%;
+float:left;
+margin-top: 3.3%;
+}
+
+#floatcard #six {
+margin-left: 1%;
+float:left;
+margin-top: 2%;
+}
+
+#floatcard #seven {
+margin-left: -1.3%;
+float:left;
+margin-top: 0.6%;
+}
+
+#floatcard #eight {
+margin-left: -0.6%;
+float:left;
+margin-top: 2.8%;
+}
+
+#floatcard #nine {
+margin-left: -0.2%;
+float:left;
+margin-top: 2%;
+}
+
+#floatcard #ten {
+margin-left: -2.1%;
+float:left;
+margin-top: 4.3%;
+}
+
+#floatcard #eleven {
+margin-left: -1.3%;
+float:left;
+margin-top: 1.3%;
+}
+
+#aboutus-top {
+background: black;
+width:420px;
+height: 180px;
+}
+
+#aboutus-bottom {
+border: solid 10px #EEAB00;
+width:400px;
+height: 280px;
+}
+
+#whoweare-top {
+width:420px;
+height: 150px;
+background: url('http://farm6.staticflickr.com/5253/5489914654_d2472cb3b2.jpg') no-repeat -65px -60px;
+}
+
+#whoweare-middle {
+background: black;
+width:420px;
+height: 200px;
+}
+#whoweare-bottom {
+border: solid 10px #EEAB00;
+width:400px;
+height: 150px;
+background: url('http://farm6.staticflickr.com/5219/5489318073_dc8f350d73.jpg') no-repeat -25px 0;
+}
+
+#whoweare-top-caption {
+float: left;
+width: 210px;
+background: rgba(255, 255, 255, 0.9);
+padding: 5px;
+margin-top: 10px;
+}
+
+#whoweare-middle-caption {
+background: black;
+width:420px;
+height: 200px;
+}
+#whoweare-bottom-caption {
+border: solid 10px #EEAB00;
+width:400px;
+height: 150px;
+background: url('http://farm6.staticflickr.com/5219/5489318073_dc8f350d73.jpg') no-repeat -25px 0;
+}
+}

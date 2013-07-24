@@ -1,0 +1,490 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    text-align: center;
+    background: #fbfbfb;
+}
+
+.right {
+    float: right;
+}
+.left {
+    float: left;
+    text-align: left;
+}
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    background: white;
+    opacity: .8;
+    z-index: 99999;
+}
+h1 {
+    border-bottom: 1px dotted #febc18; padding-bottom: 40px; font-size: 40px; width: 90%; color: #444; margin: 20px auto 30px; text-align: center; font-weight: lighter; padding-top: 38px;
+}
+p {
+    font-size: 14px;
+    color: #999;
+    font-weight: lighter;
+    width: 70%;
+    margin: 10px auto;
+    line-height: 1.5em;
+}
+iframe {
+    width: 70%;
+    height: 350px;
+    background: black;
+    margin: 0 auto;
+    display: block;
+}
+#intro div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#intro img {
+    width: 100%;
+}
+
+img.backpack {
+    width: 400px;
+    height: 400px;
+    border: 3px solid #999;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: 5;
+    background: white;
+}
+h2 {
+    border-bottom: 1px dotted #febc18; padding-bottom: 40px; 
+    font-size: 30px; width: 90%; color: #444; margin: 20px auto 30px; text-align: center; font-weight: lighter; padding-top: 38px;
+}
+h3 {
+    /* border-bottom: 1px dotted #febc18; */ 
+    /* padding-bottom: 25px; */ 
+    font-size: 20px; width: 90%; color: #444; 
+    margin: 0 auto 10px; text-align: center; font-weight: lighter; padding-top: 38px;
+}
+.item {
+    width: 25%;
+    float: left;
+    z-index: 1;
+}
+
+#scholarship img {
+    float: left;
+    margin: 0 50px;
+}
+
+.checklist img {
+    height: 200px;
+}
+ul, li {
+    list-style-type: none;
+}
+
+<!-- MENU -->
+
+nav ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#header .menu {
+    margin: 10px 30px;
+    width: 40%;
+    float: left;
+}
+
+#header .menu a {
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    color: #444;
+    margin: 0 10px;
+}
+
+#otherfundraisers nav a {
+    text-decoration: none;
+    color: #444;
+}
+.fundraiserlookup {
+    width: 90%;
+    margin: 0 auto;
+    display: none;
+    height: 300px;
+    background: #f8f8f8;
+    padding: 20px 10px;
+    box-shadow: 0 0 26px 1px #fff inset;
+    position: relative;
+}
+.fundraiser {
+    width: 200px;
+    float: left;
+}
+#facewall img {
+    width: 16.5%;
+    height: 150px;
+    float: left;
+}
+#facewall {
+    width: 100%;
+    display: table;
+}
+.upload {
+    width: 16.5%;
+    height: 150px;
+    border: 1px solid #999;
+    float: left;
+    background: #e2e2e2;
+    position: relative;
+    display: table-cell;
+}
+.sponsorlogos img {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #999;
+    float: left;
+    margin: 10px 20px;
+}
+.sponsorlogos {
+    width: 80%;
+    margin: 0 auto;
+}
+.poplogo {
+    float: left;
+}
+.poplogo img {
+    width: 100px;
+}
+#header .right {
+    position: absolute;
+    right: 28px;
+    width: 394px;
+}
+.fundraise, .donate {
+    background: #febc18;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #e2e2e2;
+    text-align: center;
+    float: right;
+    margin: 0 10px;
+}
+
+.fundraiser img {
+    border: 2px solid #999;
+    width: 80%;
+    height: 150px;
+    background: white;
+}
+.cta {
+    text-align: center;
+    padding: 20px;
+}
+.clearfix {
+    width: 100%;
+    clear: both;
+    height: 1px;
+    display: block;
+}
+
+.sharephoto {
+    text-decoration: none;
+    background: lightblue;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+    box-shadow: 0 0 6px #999;
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+}
+#facewall .upload img {
+    position: absolute;
+    width: 100%;
+}
+.pack {
+    position: relative;
+}
+.pack .info {
+    position: absolute;
+    width: 25%;
+    top: 0;
+    right: 5%;
+}
+.sharephoto {
+    text-decoration: none;
+    background: lightblue;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+    box-shadow: 0 0 6px #999;
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+}
+#facewall .upload img {
+    position: absolute;
+    width: 100%;
+}
+.pack {
+    position: relative;
+    margin-top: 40px;
+}
+.pack .info {
+    position: absolute;
+    width: 25%;
+    top: 0;
+    right: 5%;
+}
+.bar {
+    height: 5px;
+    width: 50px;
+    background: #febc18;
+    position: absolute;
+    bottom: 0;
+    left: 103.5px; width: 110px;
+}
+#otherfundraisers nav {
+    height: 35px;
+    position:relative;
+    margin-bottom:20px
+}
+.ca-nav {
+    top: 25%;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.ca-wrapper {
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+    height: 400px;
+    position: relative;
+}
+.ca-nav-prev {
+    float: left;
+    background: #febc18 url('http://www.pencilsofpromise.org/wp-content/uploads/2013/06/arrow_left.png') no-repeat center center;
+}
+.ca-nav-next {
+    float: right;
+    background: #febc18 url('http://www.pencilsofpromise.org/wp-content/uploads/2013/06/arrow_right.png') no-repeat center center;
+}
+.ca-nav span {
+    cursor: pointer; text-decoration: none; color: white; padding: 5px 10px; border-radius: 5px; box-shadow: 0 0 6px #e2e2e2; text-align: center;
+    height: 30px;
+    width: 30px;
+    color:transparent;
+}
+.sub {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.fundraiser .donate {
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    display: block;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: #febc18;
+}
+#intro p {
+    width: 50%;
+    color: #444;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+#intro {
+margin-top: 80px;
+}
+
+#backback {
+    position: relative;
+}
+.item p {
+    display: none;
+    width: 90%;
+}
+
+.section {
+    margin: 100px 0;
+}
+
+#scholarship {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.explanation h3, .explanation p {
+    text-align: left;
+}
+
+.checklist {
+}
+
+#stories nav {
+    width: 20%;
+    float: left;
+}
+
+#stories nav a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    margin: 20px;
+    color:#febc18;
+    text-transform:uppercase;
+    
+    font-weight:bolder;
+}
+
+#stories nav a span {
+    font-weight: lighter;
+    border-left: 1px solid #febc18;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#progressbar {
+    height: 26px;
+}
+.ui-widget-header {
+    border: 1px solid #e78f08;
+    background: #febc18 url(images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cta .donate, .cta .fundraise {
+    float: none;
+    font-size: 30px;
+    padding: 16px 47px;
+}
+
+#closesttogoal {
+    display:block;
+}
+
+.pack p. .checklist p {
+    width: 90%;
+}
+
+.checklist {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img.backpack {
+    display: none;
+}
+
+.checklist fieldset {
+    width: 30%;
+    text-align: left;
+    float: left;
+}
+
+#otherfundraisers li {
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.custom-checkbox {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+}
+
+.custom-checkbox > .box {
+  position: relative;
+  display: block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  border-radius: 4px;
+  float: left;
+  margin-right: 10px;
+}
+
+.custom-checkbox > .box > .tick {
+  position: absolute;
+  left: 2px;
+  top: -2px;
+  width: 14px;
+  height: 6px;
+  border-bottom: 2px solid #333;
+  border-left: 2px solid #333;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  display: none;
+}
+
+.custom-checkbox > input:checked + .box > .tick {
+  display: block;
+}
+
+.custom-checkbox > input {
+  position: absolute;
+  outline: none;
+  left: 0;
+  top: 0;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  border: none;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.custom-checkbox > input:active + .box {
+  border-color: #aaa;
+  background-color: #ddd;
+}
+
+.custom-checkbox.checked > .box > .tick {
+  display: block;
+}
+
+.oldie .custom-checkbox > .box > .tick {
+  filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865476, M12=0.7071067811865475, M21=-0.7071067811865475, M22=0.7071067811865476, sizingMethod='auto expand');
+}
+
+.oldie .custom-checkbox > input {
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+.oldie .custom-checkbox {
+  zoom: 1;
+}
+
+.oldie .custom-checkbox > .box > .tick {
+  left: 1px;
+  top: -5px;
+  zoom: 1;
+}
+
+label {
+    float: left;
+}

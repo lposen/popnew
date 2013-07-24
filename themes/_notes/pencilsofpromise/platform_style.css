@@ -1,0 +1,406 @@
+/* @override 
+    http://staging.pencilsofpromise.org/wp-content/themes/pencilsofpromise/style.css */
+
+/*
+Theme Name: Pencils of Promise
+Theme URI: http://pencilsofpromise.org/
+Description: A fresh new layout designed and developed for Pencils of Promise.
+Version: 0.1
+Author: AgencyNet
+Author URI: http://www.agencynet.com/
+*/
+
+/* @group CSS Reset */
+
+
+
+/* imported from platform_style.css */
+
+#platform-formpage {
+    width:930px;
+    padding:30px;
+    background-color:white;
+    min-height:100%;
+}
+
+#platform-formpage {
+    width:930px;
+    padding:30px;
+    min-height:100%;
+}
+
+#platform h1 {
+    margin:20px 0 10px 0;
+    font-size:20px;
+}
+
+#platform h2 {
+    margin:10px 0 20px 0;
+    font-size:16px;
+    clear:left;
+}
+
+#platform h3 {
+    margin:15px 0 10px 0;
+    font-size:14px;
+}
+
+#platform #main {
+    padding:30px;
+}
+
+#platform li {
+    list-style:none;
+    display:block;
+}
+
+#platform ul {
+    list-style:none;
+}
+
+
+#platform .platformsection {
+    padding:15px 30px 30px 15px;
+    margin-right:20px;
+    width:820px;
+    border:1px solid #ccc;
+    margin-bottom:20px;
+    clear:both;
+}
+
+#platform .platformsection-left {
+    padding:15px 15px 30px 10px;
+    margin:5px 20px 25px 0;
+    width:400px;
+    border:1px solid #ccc;
+    float:left;
+}
+
+#platform .platformsection-right {
+    padding:15px 15px 30px 10px;
+    margin:5px 20px 25px 0;
+    width:400px;
+    border:1px solid #ccc;
+}
+
+#platform .hangright {
+    padding:0px 15px 20px 10px;
+    float:right;
+    clear:both;
+    width:940px;
+    text-align:right;    
+}
+
+#platform .leftcolumn {
+    padding:0px 15px 30px 10px;
+    float:left; 
+    width:440px;
+}
+
+#platform .rightcolumn {
+    padding:0px 15px 30px 10px;
+    float:right;  
+    width:440px;
+}
+
+#platform td {
+    padding:5px;
+}
+
+#platform #activate, #platform #error  {
+    padding:40px;
+}
+
+form label {
+    width:240px;
+    display:block;
+    float:left;
+}
+
+form input[type=text] {
+    width:300px;
+}
+
+form input[type=password] {
+    width:300px;
+}
+
+form textarea {
+    width:500px;
+}
+
+#platform-popup { 
+    width:800px; 
+    margin:0px 45px;
+    padding: 20px 12px;
+    border:1px solid #bbb;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px; 
+    background-color:#fff;
+    height:auto;
+    min-height:100%;
+    overflow:hidden;
+}
+
+#platform-group-spacer {
+    height:800px;
+    width: 10px;
+}
+
+#platform-pagetitle {
+    color:#fcb50f;
+    font-size:35px;
+}
+
+#platform-pagetitle-small {
+    color:#fcb50f;
+    font-size:30px;
+}
+
+#platform-group-step-one, #platform-group-step-two, #platform-group-step-three {
+    float:left; padding-top:30px; width:700px;
+}
+
+#platform-group-step-one form {
+    padding-left:20px;
+}
+
+#platform-group-step-two p {
+    font-color:#929292;
+}
+
+.platform-form input, .platform-form label, .platform-form select, .platform-form textarea, .platform-form span  {
+    padding:2px;
+    margin:5px;
+}
+
+ul.platform-members-admin {
+    margin: 10px 5px;
+}
+
+ul.platform-fundraisers-admin {
+    margin: 10px 0px;
+}
+
+ul.platform-members-admin .name {
+    margin: 5px;
+}
+
+ul.platform-members-admin li .option {
+    color:#fcb50f;
+    font-size:12px;
+    margin:4px;
+    margin-left:20px;
+}
+
+ul.platform-fundraisers-admin .name {
+    margin: 5px;
+}
+
+ul.platform-fundraisers-admin li .option {
+    color:#fcb50f;
+    font-size:12px;
+    margin:4px;
+    margin-left:20px;
+}
+
+ul.platform-members-admin li .option a, ul.platform-fundraisers-admin li .option a {
+    color:#929292;
+}
+
+.platform-form-number {
+    float:left; padding-top:20px; padding-right:20px;
+}
+
+.platform-plusminus {
+    float:right;
+    color:#fcb50f;
+    font-size:40px;
+    cursor:pointer;
+    margin: 3px 8px;
+    margin-top:-37px;
+}
+
+.platform-form-nextlinks a, .platform-form-backlinks a {
+    cursor:pointer;
+    display:block;
+    float:left;
+}
+
+.platform-form-nextlinks a.savelink {
+    margin: 0px 20px;
+    padding-top:75px;
+    color:#000;
+    text-decoration:underline;
+}
+
+.platform-form-nextlinks {
+    float:right;
+    clear:none;
+    height:100px;
+    margin-top:25px;
+    margin-right:-13px;
+    font-size:14px;
+}
+
+.platform-form-backlinks {
+    float:left;
+    clear:none;
+    height:100px;
+    margin-top:25px;
+    margin-left:-13px;
+    font-size:14px;
+}
+
+.platform-form-nextlinks .pagination {
+    clear:both; 
+    float:right;
+    margin: 6px 5px;
+    font-size:14px;
+}
+
+.platform-form-right-block {
+    float:left; width:340px;
+}
+
+.platform-form-left-block {
+    float:left; width:340px;
+}
+
+.platform-button a, .platform-button-big a, .platform-button-huge a {
+    display: block;
+    width: 105px;
+    padding: 4px 0;
+    text-align: center;
+    background: #EBEBEB;
+    border: 1px solid gainsboro;
+    color: black;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;    
+    cursor:pointer;
+    margin:6px;
+    font-size:14px;
+    font-weight: bold;
+}
+
+.platform-button a:hover, .platform-button-big a:hover, .platform-button-huge a:hover {
+    background: #FCB50F;
+    color:black;
+}
+
+.platform-button-big a {
+    width: 165px;
+    font-size:16px;
+    padding: 16px 0;
+    margin:8px;    
+}
+
+.platform-button-huge a {
+    width: 305px;
+    font-size:26px;
+    padding: 24px 0;
+    margin:10px;
+}
+
+
+.platform-form-subtitle {
+    font-size:24px;
+}
+
+.platform-form-subsubtitle {
+    font-size:18px;
+}
+
+#platform-form-snapshot {
+    width:100%; height:160px; margin:20px 0 0 0;
+}
+
+#platform-form-snapshot #preview {
+    width:160px; float:left;
+}
+
+#platform-form-snapshot #upload {
+    float:left; margin-top:50px; margin-left:100px;
+}
+
+.platform-form-hbreak {
+    height:2px; width:760px; background-color:#ccc; margin:30px 0;
+}
+
+#platform-nav {
+    height:45px; width:100%; background-color:#f5f5f5; border-top:1px solid #ccc;
+}
+#platform-nav .logo {
+    float:left; width:97px; height:26px; margin:10px 20px 10px 20px; background:url(/wp-content/themes/pencilsofpromise/gfx/platform_nav_ipromise.png);
+}
+#platform-nav .browse {
+    float:left; height:34px; margin:6px 15px 0 10px; background:url(/wp-content/themes/pencilsofpromise/gfx/platform_nav_icon_browse.png) no-repeat left top; padding: 8px 0 0 34px;
+}
+
+#platform-nav .browse-groups {
+    float:left; height:34px; margin:6px 15px 0 10px; background:url(/wp-content/themes/pencilsofpromise/gfx/platform_nav_icon_browse_groups.png) no-repeat left top; padding: 8px 0 0 38px;
+}
+
+#platform-nav .downloads {
+    float:left; height:34px; margin:6px 15px 0 10px; background:url(/wp-content/themes/pencilsofpromise/gfx/platform_nav_icon_downloads.png) no-repeat left top; padding: 8px 0 0 38px;
+}
+
+#platform-nav .browse-groups a, #platform-nav .browse a, #platform-nav .downloads a  {
+    color:#000; font-size:12px;
+}
+
+#platform-nav .browse-groups a:hover, #platform-nav .browse a:hover, #platform-nav .downloads a:hover  {
+    color:#000; font-size:12px; color:#fcb50f;
+}
+
+#list_box {
+    padding: 15px;
+    margin-bottom:2px;
+}
+
+.paging_container_browse {
+    margin-bottom: 10px;
+}
+
+#browse_fund {
+    width:680px;
+}
+
+#browse_group {
+    width:680px;
+}
+
+.paging_container_browse .page_navigation {
+    padding-bottom: 10px;
+        margin-bottom: 30px;
+        text-align:right;
+}
+
+.paging_container_browse .page_navigation a {
+    padding:3px 2px;
+    margin:2px;
+    color:#febc11;
+    text-decoration:underline;
+    float: left;
+    font-size: 12px;
+}
+
+.paging_container_browse .active_page{
+    font-weight:bold;
+}
+
+.paging_container_browse .content {
+    color: black;
+        margin:30px 5px;
+        min-height:440px;
+}
+
+.paging_container_browse.content li, .content > p{
+    padding: 5px
+}
+
+#platform-login-signup {
+    margin:0 auto; width:300px;
+}

@@ -1,0 +1,96 @@
+/* @override 
+	http://staging.pencilsofpromise.org/wp-content/themes/pencilsofpromise/style.css */
+
+/*
+Theme Name: Pencils of Promise
+Theme URI: http://pencilsofpromise.org/
+Description: A fresh new layout designed and developed for Pencils of Promise.
+Version: 0.1
+Author: AgencyNet
+Author URI: http://www.agencynet.com/
+*/
+
+/* @group CSS Reset */
+
+#platform {
+    width:990px;
+}
+
+#platform h1 {
+    margin:20px 0 40px 0;
+    font-size:20px;
+}
+
+#platform h2 {
+    margin:10px 0 20px 0;
+    font-size:16px;
+    clear:left;
+}
+
+#platform h3 {
+    margin:15px 0 10px 0;
+    font-size:14px;
+}
+
+#platform #main {
+    padding:30px;
+}
+
+#platform .platformsection {
+    padding:15px 30px 30px 15px;
+    margin-right:20px;
+    width:820px;
+    border:1px solid #ccc;
+    margin-bottom:20px;
+    clear:both;
+}
+
+#platform .platformsection-left {
+    padding:15px 15px 30px 10px;
+    margin:5px 20px 25px 0;
+    width:400px;
+    border:1px solid #ccc;
+    float:left;
+}
+
+#platform .platformsection-right {
+    padding:15px 15px 30px 10px;
+    margin:5px 20px 25px 0;
+    width:400px;
+    border:1px solid #ccc;
+}
+
+#platform .leftcolumn {
+    padding:0px 15px 30px 10px;
+    float:left; 
+    width:440px;
+}
+
+#platform .rightcolumn {
+    padding:0px 15px 30px 10px;
+    float:right;  
+    width:440px;
+}
+
+#platform ul {
+    margin:10px 0 10px 20px;
+    list-style:square;
+}
+
+#platform li {
+    margin:2px 0 2px 20px;
+}
+
+form label {
+    width:240px;
+    display:block;
+    float:left;
+}
+
+form input[type=text] {
+    width:300px;
+}
+
+form textarea {
+    width:500px;
+}

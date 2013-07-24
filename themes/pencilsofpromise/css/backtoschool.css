@@ -1,0 +1,834 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background: #fbfbfb;
+}
+
+.right {
+    float: right;
+}
+.left {
+    float: left;
+    text-align: left;
+}
+
+.width, .inner {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    background: white;
+    opacity: .8;
+    z-index: 99999;
+}
+h1 {
+    border-bottom: 1px dotted #febc18; padding-bottom: 40px; font-size: 40px; width: 90%; color: #444; margin: 20px auto 30px; text-align: center; font-weight: lighter; padding-top: 38px;
+}
+p {
+    font-size: 16px;
+    color: #999;
+    font-weight: lighter;
+    line-height: 1.5em;
+    margin: 10px 0;
+}
+
+#intro img {
+    width: 100%;
+}
+
+h2 {
+    border-bottom: 1px dotted #febc18; padding-bottom: 40px; 
+    font-size: 42px; width: 90%; color: #444; margin: 20px auto 30px; text-align: center; font-weight: lighter; padding-top: 38px;
+}
+h3 {
+    font-size: 34px; width: 90%; color: #444;  font-weight: lighter; padding-top: 38px;
+    margin: 20px 0;
+}
+h4 {
+    text-transform:uppercase;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+.item {
+    width: 25%;
+    float: left;
+    z-index: 1;
+}
+
+#scholarship img {
+    float: left;
+    margin: 0 50px;
+}
+
+.checklist img {
+    height: 200px;
+}
+ul, li {
+    list-style-type: none;
+}
+
+
+nav ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#header .menu {
+    margin: 10px 30px;
+    width: auto;
+    float: right;
+}
+
+#header .menu a {
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    color: #444;
+    margin: 0 10px;
+}
+
+#otherfundraisers nav a {
+    text-decoration: none;
+    color: #444;
+}
+.fundraiserlookup {
+    width: 90%;
+    margin: 0 auto;
+    display: none;
+    height: 300px;
+    background: #f8f8f8;
+    padding: 20px 10px;
+    box-shadow: 0 0 26px 1px #fff inset;
+    position: relative;
+}
+.fundraiser {
+    width: 200px;
+    float: left;
+}
+#facewall img {
+    width: 100%;
+    float: left;
+    height: auto;
+    overflow: hidden;
+}
+#facewall {
+    width: 100%;
+    display: table;
+}
+.upload {
+    width: 16.5%;
+    height: 150px;
+    border: 1px solid #999;
+    float: left;
+    background: #e2e2e2;
+    position: relative;
+    display: table-cell;
+}
+.sponsorlogos img {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #999;
+    float: left;
+    margin: 10px 20px;
+}
+.sponsorlogos {
+    width: 80%;
+    margin: 0 auto;
+}
+.poplogo {
+    float: right;
+}
+.poplogo img {
+    width: 100px;
+}
+#header .right {
+    position: absolute;
+    right: 28px;
+    width: 394px;
+}
+.fundraise, .donate {
+    background: #febc18;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #e2e2e2;
+    text-align: center;
+}
+
+.cta {
+    text-align: center;
+    padding: 20px;
+}
+.clearfix {
+    width: 100%;
+    clear: both;
+    height: 1px;
+    display: block;
+}
+
+.sharephoto {
+    text-decoration: none;
+    background: lightblue;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+    box-shadow: 0 0 6px #999;
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+}
+
+
+#facewall .upload img {
+    position: absolute;
+    width: 100%;
+}
+.pack {
+    position: relative;
+}
+.pack .info {
+    position: absolute;
+    width: 25%;
+    top: 0;
+    right: 5%;
+}
+.sharephoto {
+    text-decoration: none;
+    background: lightblue;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 20px;
+    box-shadow: 0 0 6px #999;
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+}
+#facewall .upload img {
+    position: absolute;
+    width: 100%;
+}
+.pack {
+    position: relative;
+    margin-top: 40px;
+}
+.pack .info {
+    position: absolute;
+    width: 25%;
+    top: 0;
+    right: 5%;
+}
+.bar {
+    height: 2px;
+    width: 50px;
+    background: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 103.5px; width: 110px;
+}
+#otherfundraisers nav {
+    height: 25px;
+    position:relative;
+    margin-bottom:20px
+;background: #febc18;
+    color: white;
+    padding: 10px 0;
+}
+.ca-nav {
+    top: 25%;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.ca-wrapper {
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+    height: 300px!important;
+    position: relative;
+}
+.ca-nav-prev {
+    float: left;
+    background: #febc18 url('http://www.pencilsofpromise.org/wp-content/uploads/2013/06/arrow_left.png') no-repeat center center;
+}
+.ca-nav-next {
+    float: right;
+    background: #febc18 url('http://www.pencilsofpromise.org/wp-content/uploads/2013/06/arrow_right.png') no-repeat center center;
+}
+.ca-nav span {
+    cursor: pointer; text-decoration: none; color: white; padding: 5px 10px; border-radius: 5px; box-shadow: 0 0 6px #e2e2e2; text-align: center;
+    height: 30px;
+    width: 30px;
+    color:transparent;
+}
+.sub {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.fundraiser .sub {
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    display: block;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: #febc18;
+}
+
+#intro {
+    margin-top: 80px;
+}
+
+#backback {
+    position: relative;
+}
+.item p {
+    display: none;
+    width: 90%;
+}
+
+.section {
+    margin: 100px 0;
+}
+
+#scholarship {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.explanation h3, .explanation p {
+    text-align: left;
+}
+
+#stories nav {
+    width: 20%;
+    float: left;
+}
+
+#stories nav a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    margin: 20px;
+    color:#febc18;
+    text-transform:uppercase;
+    
+    font-weight:bolder;
+}
+
+#stories nav a span {
+    font-weight: lighter;
+    border-left: 1px solid #febc18;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#progressbar {
+    height: 26px;
+    border-radius: 15px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.5); -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.5); box-shadow: inset 0 1px 2px rgba(0,0,0,0.5);   -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.5);    
+    display: block;  -moz-border-radius: 12px; -ms-border-radius: 12px; -o-border-radius: 12px;    
+    background: #fff;
+}
+.ui-widget-header {
+    border: 1px solid #e78f08;    
+}
+
+.cta .donate, .cta .fundraise {
+    float: none;
+    font-size: 30px;
+    padding: 16px 47px;
+}
+
+#closesttogoal {
+    display:block;
+}
+
+.pack p, .checklist p {
+    width: 90%;
+}
+
+.checklist {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img.backpack {
+    display: none;
+}
+
+.checklist fieldset {
+    width: 40%;
+    text-align: left;
+    float: left;
+}
+
+.custom-checkbox p {
+    clear: both;
+    margin: 10px 0 25px 25px;
+    width: 80%;
+    font-size: 10px;
+    display: inline-block;
+}
+
+.cost {
+    margin-left: 20px;
+    font-size: 12px;
+    color: #febc18;
+}
+
+.number {
+    width: 10px;
+}
+
+#otherfundraisers li {
+    display: inline-block;
+    cursor: pointer;
+    width: 20%;
+}
+
+.checklist h4 {
+    text-align: center;
+}
+.checklist form {
+    height: 500px;
+}
+#boy {
+    height: 500px;
+}
+#checksubmit {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+}
+.amount {
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    padding: 0 40px;
+    width: 200px;
+    color: #999;
+    font-weight: lighter;
+    margin-left: -20px;
+}
+input {
+    border: 1px solid #eee;
+}
+#checklistvalue {
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.custom-checkbox {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-checkbox > .box {
+  position: relative;
+  display: block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  border-radius: 4px;
+  float: left;
+  margin-right: 10px;
+}
+
+.custom-checkbox > .box > .tick {
+  position: absolute;
+  left: 2px;
+  top: -2px;
+  width: 14px;
+  height: 6px;
+  border-bottom: 2px solid #333;
+  border-left: 2px solid #333;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  display: none;
+}
+
+.custom-checkbox > input:checked + .box > .tick {
+  display: block;
+}
+
+.custom-checkbox > input {
+  position: absolute;
+  outline: none;
+  left: 0;
+  top: 0;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  border: none;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.custom-checkbox > input:active + .box {
+  border-color: #aaa;
+  background-color: #ddd;
+}
+
+.custom-checkbox.checked > .box > .tick {
+  display: block;
+}
+
+.oldie .custom-checkbox > .box > .tick {
+  filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865476, M12=0.7071067811865475, M21=-0.7071067811865475, M22=0.7071067811865476, sizingMethod='auto expand');
+}
+
+.oldie .custom-checkbox > input {
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+.oldie .custom-checkbox {
+  zoom: 1;
+}
+
+.oldie .custom-checkbox > .box > .tick {
+  left: 1px;
+  top: -5px;
+  zoom: 1;
+}
+
+label {
+    float: left;
+}
+
+.plusminus {
+    float: right;
+    margin-top: 40px;
+    width: 32px;
+}
+
+.plusminus span {
+    display: inline-block;
+    font-size: 10px;
+}
+
+.plus, .minus {
+    cursor:pointer;
+}
+
+.dollar {
+    float:left;
+    position:relative;
+    margin-top:9px;
+    color:#999;
+    font-weight:lighter;
+}
+
+/* campaign overview */
+#campaignoverview {
+    background: #444;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin: 0;
+    text-align: center;
+}
+
+/* STORIES */
+
+#stories h3 {
+    text-align:center;
+}
+
+/* OTHER FUNDRAISERS */
+ #otherfundraisers h3 {
+     text-align: center;
+ }
+ 
+ #otherfundraisers h4 {
+     text-align:center;
+     color: #444;
+     margin: 0 0 20px;
+     font-weight:100;
+ }
+ 
+ #otherfundraisers a {
+     text-decoration:none;
+ }
+ 
+ #otherfundraisers img {
+    width: 80%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+#recentlycreated .sub {
+    width: 90%;
+    color: #444;
+}
+
+/*search*/
+#searchbox .fundraiserlookup {
+    display: block;
+}
+
+.fundraiser_search {
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+/* INFO */
+#info {
+    color:#999;
+}
+
+/* summary */
+#summary {
+    width: 60%;
+    float: left;
+}
+
+.getstarted {
+    background: #42c968;
+    color: white;
+    text-decoration:none;
+    display:block;
+    width:150px;
+    text-align:center;
+    padding:15px 0;
+    border-radius: 5px;
+    margin:30px 0;
+    text-transform:uppercase;
+    box-shadow: 0 0 6px #e2e2e2;
+}
+
+/* divider */
+
+.divider {
+    width: 10px; 
+    height: 400px; 
+    background: #e2e2e2;
+    display: block; 
+    float: left;
+}
+/* progress */
+#progress {
+    width: 30%;
+    float: right;
+}
+
+#progress .total {
+    float: right;
+}
+
+.zero, .total, .raised, .daysleft {
+    font-size: 14px;
+    color: #999;
+}
+
+.daysleft {
+    float:right;
+}
+
+.children {
+    font-size: 50px;
+    color: #444;
+}
+
+.raised {
+    margin-top: 10px;
+}
+#progress hr {
+    border-top: 1px solid #eee;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 30px 0 15px;
+}
+#progress p {
+    margin: 0 10px 30px;
+    color: #444;
+}
+#progress .donate {
+    margin-left: 10px;
+}
+
+.ui-progressbar .ui-progressbar-value {
+    height: 95%;
+    border-radius: 3px;
+    margin-top: 1px; 
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-color: transparent;
+}
+
+/* Facewall */
+.screenname {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+}
+#facewall .image {
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+.screenname p {
+    text-align: center;
+    color: #fff;
+}
+
+#waystohelp h3 {
+    text-align:center;
+}
+
+/* Twitter */
+#loading-container {
+    padding:16px 0px 16px 0px;
+    text-align:center;  
+}
+ 
+#twitter-feed {
+    width:258px;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:60px;
+    padding:8px 0px 5px 10px;
+    border-radius:12px;
+    background-color:#FFF;
+    color:#333;
+    overflow:auto;
+}
+ 
+#twitter-feed h1 {
+    color:#5F5F5F;
+    margin:0px;
+    padding:9px 0px 9px 0px;
+    font-size:18px;
+    font-weight:lighter;    
+}
+ 
+.twitter-article, #loading-container {
+    width:258px;
+    border-top:1px dotted #CCC;
+    float:left; 
+    padding:8px 0px 8px 0px;
+}
+ 
+.twitter-pic {
+    float:left;
+}
+ 
+.twitter-pic img {
+    float:left;
+    border-radius:7px;  
+    border:none;
+     
+}
+ 
+/* -------- TEXT STYLING ------*/
+.twitter-text {
+    width:194px;
+    float:left;
+    font-size:11px;
+    padding-left: 11px;
+}
+.twitter-text p {
+    margin:0px;
+    line-height:15px;   
+}
+.twitter-text a,  h1 a {
+    color: #00acee;
+    text-decoration: none;
+}
+.twitter-text a:hover,  h1 a:hover {
+    text-decoration: underline;
+    color: #00acee;
+}
+ 
+.tweet-time {
+    font-size:10px;
+    color:#878787;
+    float:right;
+}
+.tweet-time a, .tweet-time a:hover {
+    color:#878787;
+}
+ 
+.tweetprofilelink a {
+    color:#444;
+}
+.tweetprofilelink a:hover {
+    color:#444;
+}
+ 
+/* -------- FEED  ACTIONS ------*/
+#twitter-actions {
+    width:75px;
+    float:right;
+    margin-right:5px;   
+    margin-top:3px;
+        display:none;
+}
+.intent {
+    width:25px;
+    height:16px;
+    float:left; 
+}
+.intent a{
+    width:25px;
+    height:16px;
+    display:block;
+    background-image:url(../images/tweet-actions.png);
+    float:left; 
+} 
+.intent a:hover{
+    background-position:-25px 0px;
+} 
+ 
+#intent-retweet a{
+    background-position:0px -17px;
+} 
+#intent-retweet a:hover{
+    background-position:-25px -17px;
+} 
+#intent-fave a{
+    background-position:0px -36px;
+} 
+#intent-fave a:hover{
+    background-position:-25px -36px;
+} 
+ 
+/* -------- RETWEET INDICATOR ------*/
+#retweet-indicator {
+    width:14px;
+    height:10px;
+    background-image:url(../images/tweet-actions.png);
+    background-position:-5px -54px;
+    margin-top:3px;
+    float:left;
+}

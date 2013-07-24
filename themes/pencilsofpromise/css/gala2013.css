@@ -1,0 +1,214 @@
+/* 
+    Document   : gala2013
+    Created on : Jul 17, 2013, 1:32:12 PM
+    Author     : lorenposen
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    background: black;
+    color: white;
+    font-size:18px;
+    line-height:1.5em;
+    font-weight: 100;
+}
+
+/* GLOBAL */
+.inner {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear:both;
+    display:block;
+    width:100%;
+}
+
+/* INTRO */
+
+#gala {
+    background-image: url('../gfx/gala2013/circles.png');
+    padding-top: 50px;
+    background-position: top center;
+}
+
+#intro .inner {
+    background: black;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+#dateplace {
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    margin: 50px 0 100px;
+    font-size: 20px;
+}
+#dateplace span:first-child {
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+#dateplace span {
+    padding-left: 5px;
+}
+#dateplace div {
+    margin: 5px;
+}
+.person {
+    display: inline-block;
+    float: left;
+}
+.honor {
+    float: left;
+    width: 75%;
+}
+.hosted {
+    float: left;
+    width: 25%;
+}
+
+.honor .person {
+    width: 30%;
+}
+.person p {
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    color: #e5c876;
+}
+.hosted .person img {
+    border-left: 1px solid #222;
+    padding-left: 80px;
+}
+.hosted .name {
+    padding-left: 40px;
+}
+#featuring {
+    margin-bottom: 60px;
+}
+
+#intro {
+    margin-bottom: 100px;
+}
+
+#featuring h4 {
+    font-weight: 100;
+}
+
+#featuring .hosted h4 {
+    text-align: center;
+    padding-left: 80px;
+}
+
+#featuring .honor h4 {
+    padding-left: 22px;
+}
+
+/* CONTACT */
+
+#contact {
+    background-image: url("../gfx/gala2013/contact.jpg");
+    background-size:100%;
+    margin-bottom: 50px;
+}
+
+#form {
+    background: black;
+    width: 500px;
+    float: right;
+    margin-top: 100px;
+    padding: 10px 20px 20px;
+    margin-bottom: 50px;
+    height: 490px;
+}
+
+.gform_title {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 32px;
+    color: #e5c876;
+    margin-bottom: 20px;
+}
+.gform_description {
+    font-size: 14px;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+    display: block;
+}
+#contact form input[type="text"], #contact form input[type="email"] {
+    width: 230px;
+    margin-bottom: 10px;
+    height: 30px;
+    padding: 5px 0 0px 10px;
+}
+
+#contact form input[type="textarea"] {
+    width: 494px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact input[type="submit"] {
+    float: right;
+    text-transform: uppercase;  font-size: 16px;  
+    color: #444;  
+    padding: 8px 20px;  background: -moz-linear-gradient(   top,   #f7f7f7 0%,   #f7f4f7 25%,   #ededed 75%,   #dedede);  
+    background: -webkit-gradient(   linear, left top, left bottom,    from(#f7f7f7),   color-stop(0.25, #f7f4f7),   color-stop(0.75, #ddd),   to(#dedede));  
+    -moz-border-radius: 2px;  
+    -webkit-border-radius: 2px;  
+    border-radius: 2px;  border: 1px solid #f0f0f0;  -moz-box-shadow:   0px 1px 1px rgba(000,000,000,0.5),   inset 0px 0px 1px rgba(214,214,214,1);  -webkit-box-shadow:   0px 1px 1px rgba(000,000,000,0.5),   inset 0px 0px 1px rgba(214,214,214,1);  box-shadow:   0px 1px 1px rgba(000,000,000,0.5),   inset 0px 0px 1px rgba(214,214,214,1);  text-shadow:   0px -1px 0px rgba(000,000,000,0.2),   2px 1px 2px rgba(255,255,255,0.3);
+}
+
+.gform_body li {
+    list-style-type: none;
+}
+.gform_body ul {
+    padding: 0;
+}
+.gform_body .name input {
+    float: left;
+}
+.gform_body .emailorphone input {
+    float: right;
+}
+
+.ginput_container textarea {
+    width: 479px;
+    padding: 10px 10px;
+}
+.gform_heading {
+}
+
+::-webkit-input-placeholder {
+   color: #999;
+   font-style:italic;
+   font-weight: lighter;
+   font-size: 14px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #999;
+   font-style:italic;
+   font-weight: lighter;
+   font-size: 14px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #999;
+   font-style:italic;
+   font-weight: lighter;
+   font-size: 14px;
+}
+
+:-ms-input-placeholder {  
+   color: #999;
+   font-style:italic;
+   font-weight: lighter;
+   font-size: 14px;
+}

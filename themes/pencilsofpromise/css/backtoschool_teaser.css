@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    color:white;
+    padding: 0;
+    position: relative;
+}
+
+#gform_wrapper_9, #gform_confirmation_wrapper_9 {
+    width: 600px;
+    height: 280px;
+    margin: 0 auto;
+    position: relative;
+    top: 260px;
+   
+    padding: 15px 20px;
+}
+
+#gform_confirmation_wrapper_9 {
+    color: black;
+    text-align:center;
+}
+#gforms_confirmation_message {
+    margin-top: 100px;
+}
+.gform_heading {
+    display: none;
+}
+label {
+    display: none;
+}
+
+input[type="text"] {
+    width: 215px;
+    float: left;
+}
+
+input {
+    padding: 15px 20px;
+    margin: 5px 20px 20px;
+    border-radius: 3px;
+    /* border: 1px solid #eee; */
+}
+
+input:focus {
+    box-shadow: 0 0 5px 2px rgba(254, 188, 24, 0.2);         
+    /* border: 1px solid rgba(254, 188, 24, 0.3); */
+    outline: none;
+}
+#gform_fields_9 {
+    margin: 0;
+    padding: 0;
+}
+#input_9_1_6 {
+    float: right;
+}
+#input_9_2 {
+    width: 318px;
+}
+#gform_submit_button_9 {
+    /* margin: 20px auto; */
+    display: block;
+    padding: 14px 50px;
+    background: #42c968;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    /* box-shadow: 0 0 6px #e2e2e2; */
+    position: absolute;
+    top: 108px;
+    right: 21px;
+}
+
+::-webkit-input-placeholder {
+   color: #999;
+   font-weight: lighter;
+   font-size: 14px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #999;
+   font-weight: lighter;
+   font-size: 14px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #999;
+   font-weight: lighter;
+   font-size: 14px;
+}
+
+:-ms-input-placeholder {  
+   color: #999;
+   font-weight: lighter;
+   font-size: 14px;
+}
+
+#header, #info {
+    width: 400px;
+    margin: 50px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#social {
+    position: relative;
+    top: 150px;
+    margin: 20px auto;
+    width: 260px;
+    left: 20px;
+}
+
+#tubular-container {
+    top: 0!important;
+}

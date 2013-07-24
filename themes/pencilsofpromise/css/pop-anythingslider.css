@@ -1,0 +1,249 @@
+/*
+    AnythingSlider v1.4
+
+    By Chris Coyier: http://css-tricks.com
+    with major improvements by Doug Neiner: http://pixelgraphics.us/
+    based on work by Remy Sharp: http://jqueryfordesigners.com/
+*/
+
+/******* SET DEFAULT DIMENSIONS HERE ********/
+div.anythingSlider {
+	width: 700px;
+	height: 390px;
+	margin: 0 auto;
+}
+
+/****** SET COLORS HERE *******/
+/* Default State */
+div.anythingSlider .thumbNav a.cur, div.anythingSlider .thumbNav a {
+
+}
+div.anythingSlider .anythingWindow {
+
+}
+/* Active State */
+div.anythingSlider.activeSlider .thumbNav a.cur, div.anythingSlider.activeSlider .thumbNav a {
+
+}
+div.anythingSlider.activeSlider .anythingWindow {
+
+}
+
+/**** DO NOT CHANGE BELOW THIS LINE ****/
+/* anythingSlider viewport window */
+div.anythingSlider .anythingWindow {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+/* wrapper: 45px right & left padding for the arrows, 28px @ bottom for naviagation */
+div.anythingSlider {
+	position: relative;
+	padding: 0;
+}
+/* anythingSlider base UL */
+ul.anythingBase {
+	background: transparent;
+	list-style: none;
+	position: absolute;
+	top: 0; left: 0;
+	margin: 0;
+}
+ul.anythingBase li.panel {
+	background: transparent;
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+/* Navigation Arrows */
+div.anythingSlider .arrow {
+	top: 50%;
+	position: absolute;
+	display: block;
+}
+div.anythingSlider .arrow a {
+	display: block;
+	height: 120px;
+	margin-top: -60px;
+	width: 45px;
+	text-align: center;
+	outline: 0;
+	background: url(../images/arrows.png) no-repeat;
+	text-indent: -9999px;
+}
+div.anythingSlider .forward { right: 0; }
+div.anythingSlider .back { left: 0; }
+div.anythingSlider .forward a { background-position: 0 -40px; }
+div.anythingSlider .back a { background-position: -88px -40px; }
+div.anythingSlider .forward a:hover, div.anythingSlider .forward a.hover { background-position: 0 -240px; }
+div.anythingSlider .back a:hover, div.anythingSlider .back a.hover { background-position: -88px -240px; }
+
+/* Navigation Links */
+div.anythingSlider .thumbNav { margin: 0; }
+div.anythingSlider .thumbNav li { display: inline; }
+div.anythingSlider .thumbNav a {
+	color: black;
+	font: 11px/18px Georgia, Serif;
+	display: inline-block;
+	text-decoration: none;
+	padding:0;
+	margin: 0;
+	background-image: url(../images/cellshade.png);
+	background-repeat: repeat-x;
+	text-align: center;
+	outline: 0;
+}
+div.anythingSlider .thumbNav a:hover { background-image: none; }
+
+/* slider autoplay right-to-left, reverse order of nav links to look better */
+div.anythingSlider.rtl .thumbNav a { float: right; } /* reverse order of nav links */
+div.anythingSlider.rtl .thumbNav { float: left; }    /* move nav link group to left */
+/* div.anythingSlider.rtl .start-stop { float: right; } */ /* move start/stop button - in case you want to switch sides */
+
+/* Autoplay Start/Stop button */
+div.anythingSlider .start-stop {
+	z-index: 10;
+	background: green url(../images/cellshade.png) repeat-x center top;
+	color: white;
+	padding: 2px 5px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	float: right;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+div.anythingSlider .start-stop.playing { background-color: red; }
+div.anythingSlider .start-stop:hover, div.anythingSlider .start-stop.hover { background-image: none; color: #ff0 }
+
+
+/**** BEGIN CUSTOM ****/
+
+#video-gallery .anythingSlider                         { width: 640px; height: 510px; position: relative; margin: 0; }
+#video-gallery .anythingSlider .wrapper                { width: 640px; overflow: auto; height: 510px; margin: 0; position: absolute; top: 0; left: 0; }
+#video-gallery .anythingSlider .wrapper ul             { width: 9999px; list-style: none; position: absolute; top: 0; left: 0; border:0; }
+#video-gallery .anythingWindow ul li                   { display: block; float: left; padding: 0; height: 580px; width: 990px; margin: 0; }
+
+.thumbNav ul li      { width:120px; height:90px; }
+.thumbNav ul         { width:120px; height:90px; }
+
+#video-gallery ul.thumbNav {
+    position: absolute;
+    right: -270px;
+    top: 55px;
+    width:255px;
+    display:inline;
+    list-style-type: none;  
+}
+
+#video-gallery div#wrapper #socialMedia, #gallery div#wrapper #socialMedia {
+    position: absolute;
+    right: -260px;
+    top: 15px;
+    width:250px;
+}
+
+#gallery ul.thumbNav {
+    position: absolute;
+    right: -270px;
+    top: 55px;
+    width:255px
+}
+
+
+#video-gallery ul.thumbNav a {
+    width:120px;
+    height:90px;
+    border-radius: 0;
+    background:none;
+    border: 1px solid #eee;
+}
+
+#video-gallery ul.thumbNav a:hover {
+	background: none;
+}
+
+#video-gallery ul.thumbNav a.cur, ul.thumbNav a.cur:hover {
+	background: none;
+        border:1px solid #eabb00;
+}
+
+#gallery ul.thumbNav a {
+    width:120px;
+    height:90px;
+    border-radius: 0;
+    background:none;
+    border: 1px solid #eee;
+}
+
+#gallery ul.thumbNav a:hover {
+	background: none;
+}
+
+#gallery ul.thumbNav a.cur,ul.thumbNav a.cur:hover {
+	background: none;
+        border:1px solid #eabb00;
+}
+
+.gallery-outer-wrapper {
+        background-color:#eee;
+        width:910px;
+        height:480px;
+        padding:0;
+        border-top: 3px solid #E0A213;
+        border-bottom: 3px solid #E0A213;
+}
+
+.video-gallery-outer-wrapper {
+        background-color:#eee;
+        width:910px;
+        height:510px;
+        padding:0;
+        border-top: 3px solid #E0A213;
+        border-bottom: 3px solid #E0A213;
+}
+
+#gallery #photo-overlay h2 {
+	font-size: 18px;
+	margin: 0 0 5px 0;
+	text-transform: uppercase;
+}
+
+#gallery #photo-overlay h2 {
+	text-transform: none;
+}
+
+#gallery #photo-overlay h2 {
+	color: #555;
+	font-size: 24px;
+}
+
+#gallery #photo-overlay h2 span {
+	color: #eeab00;
+}
+
+#gallery #photo-overlay {
+        position:absolute;
+	float: right;
+	width: 200px;
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.9);
+	padding: 20px 100px 20px 20px;
+}
+
+#gallery #photo-overlay p {
+	margin: 10px 0;
+	color: #898989;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+#gallery .start-stop {
+    display:none;
+}

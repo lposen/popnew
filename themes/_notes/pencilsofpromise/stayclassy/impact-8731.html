@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+	<style>
+	body {
+		font-family: helvetica,arial,sans-serif;
+		margin:0;
+		overflow:hidden;
+	}
+	#columnWpr {
+		background: #EAEAEA url(pop_impact_back.png) no-repeat 0 0;
+		overflow: hidden;
+		padding: 5px 10px 5px 10px;
+		height:153px;
+	}
+
+	#columnWpr #icon {
+		width:115px;
+		height:153px;
+		float:left;
+	}
+
+	.icon_child {
+		background: url(icon_child.png) no-repeat 0 0;
+	}
+
+	.icon_classroom {
+		background: url(icon_classroom.png) no-repeat 0 0;
+	}
+
+	.icon_cap {
+		background: url(icon_cap.png) no-repeat 0 0;
+	}
+
+	.icon_build {
+		background: url(icon_build.png) no-repeat 0 0;
+	}
+
+	#columnWpr #text {
+		width:360px;
+		float:left;
+	}
+	#columnWpr #text #line1 {
+		padding:30px 0 0 10px;
+		font-size:46px;
+		font-weight:bold;
+		height:60px;
+	}
+	#columnWpr #text #line2 {
+		font-size:32px;
+		padding:2px 0 0 5px;
+	}
+	</style>
+	<script>
+		function getParameter(paramName) {
+		  var searchString = window.location.search.substring(1),
+			  i, val, params = searchString.split("&");
+
+		  for (i=0;i<params.length;i++) {
+			val = params[i].split("=");
+			if (val[0] == paramName) {
+			  return unescape(val[1]);
+			}
+		  }
+		  return null;
+		}
+
+		function setImpact(num) {
+			if (!num) {
+				//nothing
+			}
+			else if (num==2500) {
+				$('#icon').addClass("icon_classroom");
+				$('#line1').text("Sponsor");
+				$('#line2').text("a Full Classroom");
+			}
+			else if (num==10000) {
+				$('#icon').addClass("icon_build");
+				$('#line1').text("Build");
+				$('#line2').text("a Full Classroom");
+			}
+			else if (num==25000) {
+				$('#icon').addClass("icon_cap");
+				$('#line1').text("");
+				$('#line2').html("Build & Sponsor</br>a Full School");
+				$('#line2').css("margin-top","-25px");
+				$('#line2').css("font-size","36px");
+			}
+			else {
+				calc = Math.floor(num/25);
+				$('#icon').addClass("icon_child");
+				$('#line1').text(""+calc);
+				$('#line2').text("Children's Education");
+				$('#line1').css("font-size","48px");
+			}
+		}
+		$(document).ready(function() {
+		  setImpact(getParameter('goal'));
+		});
+	</script>
+
+</head>
+<body>
+<div id="columnWpr">
+<div id="impact">
+	<div id="icon"></div>
+	<div id="text">
+		<div id="line1"></div>
+
+		<div id="line2"></div>
+	</div>
+</div>
+</div>
+</body>
+</html>

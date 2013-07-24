@@ -1,0 +1,260 @@
+/*
+Theme Name: Pencils of Promise
+Theme URI: http://pencilsofpromise.org/
+Description: A fresh new layout designed and developed for Pencils of Promise.
+Version: 0.1
+Author: AgencyNet
+Author URI: http://www.agencynet.com/
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+.desktop {
+    display:none;
+}
+
+.handheld {
+    display:block;
+}
+
+.hide {
+	display: none;
+}
+
+#page, body, footer, .inner, #main, #top-frontpage, #colophon, #supplementary, #content, #footer, #header {
+	max-width: 100%;
+	margin: 0;
+    float: none;
+    overflow: hidden;
+}
+
+#content img {
+	width: 100%!important;
+	display: block;
+}
+
+/* Hide Elements that area not necessary */
+
+/* Show hidden elements */
+#pages nav#tabs, .handheld {
+	display: block;
+}
+
+#overlay img {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#overlay .info {
+	display:none;
+}
+
+#branding, #branding-inner {
+    max-width: 100%;
+    margin: 0;
+}
+
+
+
+/* Start Header */
+header {
+	left:0;
+	width:100%;
+	height: 60px;
+	padding-top:0;
+	border-top: 1px solid #888;
+	background: 100%; /* W3C */
+        margin: 0;
+        z-index: 999;
+}
+
+#content {
+	margin-top: 10px;
+}
+
+#header #friends {
+	display: none;
+}
+
+#header #navigation {
+	float: right;
+	clear: none;
+	width: 72%;
+	display: block;
+	margin: 0;
+	padding-top: 2px;
+}
+
+#header #title {
+float:left;
+width: 27%;
+height: 30px;
+}
+
+#header #title h1 {
+	background-size: 28%;
+	float: left;
+	margin: 4px 0;
+	width: auto;
+}
+
+#header #fundraiserbutton {
+	display:none;
+}
+
+#navigation div {
+	display: none;
+}
+
+#menu-main-navigation {
+	float: right;
+	width: 227px;
+}
+
+#menu-main-navigation li {
+	height: 20px;
+	width: 51px;
+}
+
+#menu-main-navigation a {
+	line-height: 9px;
+	font-size: 8px;
+	width: 40px;
+	padding: 1px 2px 0 4px
+}
+
+#donation_body {
+	padding: 0;
+	margin-top: 0;
+}
+
+#donation_amt, #donation_pay, #donation_recurring {
+	text-align: center;
+	width: 100%;
+	display: block;
+	clear: both;
+}
+
+#donation_amt {
+	diplay: block;
+	height: 130px;
+	height: 200px;
+}
+
+#donation_amt #lsb, #donation_recurring #lsb, #donation_pay #lsb {
+	text-align: center;
+	width: 100%;
+	display: block;
+	clear: both;
+	margin: 20px 0 30px 0;
+}
+
+#donation_amt #mid, #donation_recurring #mid, #donation_pay #mid {
+display: block;
+width: 100%;
+padding-right: 0;
+line-height: 1.5em;
+vertical-align: middle;
+font-size: 12px;
+text-align: center;
+margin: 0;
+}
+
+#donation_amt #rsb, #donation_recurring #rsb, #donation_pay #rsb {
+display: block;
+width: 95%;
+vertical-align: middle;
+font-size: 12px;
+margin: 5px auto 15px auto;
+}
+
+input#donation_input {
+font-size: 20px;
+width: 70%!important;
+margin-right: 15px;
+}
+
+#rsb input[type="checkbox"] {
+margin-left: 65px;
+float: left;
+clear: none;
+}
+
+#donation_amt #rsb div {
+width: 95%!important;
+margin-top: 5px;
+padding: 0;
+}
+
+#donation_amt #rsb label {
+width: 70%!important;
+display: inline-block;
+margin: 0;
+padding: 0;
+margin-top: -5px;
+float: left;
+clear: none;
+text-align: left;
+margin-left: 5px;
+}
+
+#donation_recurring {
+padding: 5px;
+height: 150px;
+}
+
+#donation_button .styledRadio {
+width: 30%!important;
+background-size: 90%;
+}
+
+#rsb .payment-type {
+width: 44%!important;
+background-size: 90%;
+}
+
+#donation_pay {
+	height: 120px;
+}
+
+#number {
+	padding: 10px 15px;
+}
+
+#icon-or {
+width: 18px;
+height: 13px;
+margin: 15px 7px 0;
+float: left;
+}
+
+.step-number {
+width: 15%;
+margin: 0 auto;
+}
+
+.p_step .form-container, .step .form-container-nobg {
+	width: 90%;
+}
+
+.step-padding span.amount-copy-provides {
+	margin-top: -10px;
+}
+
+#menu-footer-links {
+display: none;
+}
+
+#footer .aside {
+	width: 50%;
+}
+
+#footer .left {
+	width: 65px!important; 
+	line-height: 1.5em;
+}
+	
+
+
