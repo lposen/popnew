@@ -1,0 +1,232 @@
+#aboutus , #ourimpact , #outandabout , #financials , #signyearbook  {
+	padding: 90px 0 0;
+}
+
+#yearbook-nav {
+	height:auto;
+	font-size:9px;
+}
+
+#yearbook-nav-inner ul {
+float: left;
+}
+
+#yearbook-nav-inner li:nth-child(2) {
+border: none;
+}
+
+#yearbook-nav-inner li {
+padding: 0 6px;
+}
+
+.sidebar {
+display:none;
+/* 
+width: 27%;
+left: -20px;
+ */
+}
+
+.content{
+	width:100%;
+	float: none;
+	height: auto;
+	padding-bottom: 50px;
+}
+.sectionblock span {
+width: 15px;
+height: 15px;
+margin-left: -18px;
+}
+
+h7 {
+font-size: 10px;
+}
+
+/* 
+
+.sidebar  p {
+font-size: 8px;
+}
+
+.sidebar  li {
+line-height: 0.8em;
+}
+ */
+
+#staff ul.double {
+width: 100%;
+}
+
+#timeline {
+display:none;
+}
+
+#aboutus {
+display:block;
+}
+
+#showTimeline2 {
+	display:none;
+}
+
+#AUpartnerleft {
+	border:none;
+	width:90%;
+}
+
+#AUpartnerright {
+	width:90%;
+	padding: 15px 0;
+	border-top: 1px solid #febc18;
+}
+
+#OS-seatingchart  {
+width: 90%;
+}
+
+#OS-chart div{
+font-size:10px;
+padding:0;
+float:left;
+}
+
+#OS-seatingchart td {
+padding: 2px 0px;
+}
+
+/* 
+.subtitle {
+
+line-height: 17px;
+margin-top: 18px;
+}
+ */
+
+.OS-circle {
+width: 10px;
+height: 10px;
+border-radius: 5px;
+}
+
+.OS-seat {
+width: 23px;
+height: 10px;
+}
+#schoolculture h4 {
+font-size:11px;
+}
+
+.section  p {
+padding:0;
+font-size:10px;
+}
+
+.section  img{
+width:60%;
+}
+
+.section  {
+width:30%;
+}
+
+#bbmeet {
+width:100%;
+float: none;
+}
+
+.impossones  {
+width:100%;
+}
+
+.impossonesbox  {
+border:none;
+}
+
+#s4a-left  {
+	width:100%;
+}
+
+#s4a-imgsmid  {
+width:auto;
+}
+
+#s4a-imgsright  {
+width:100%;
+}
+
+#galatopimgs   {
+float:left;
+width:100%;
+}
+
+.highlightsfield  {
+width:100%;
+border:none;
+}
+
+.highlightshome  {
+	width:100%;
+}
+
+.dp-col {
+width:100%;
+}
+
+.column {
+width:100%;
+text-align:center;
+float: none;
+height: auto;
+}
+
+#classof2012 ul li{
+width:auto;
+}
+
+#digipresence h5{
+font-size:30px;
+}
+
+#DPavgdaily  {
+	height:135px;
+}
+
+#DPavgdaily h4{
+padding-left: 15px;
+}
+
+.FFsect  {
+width: 100%;
+min-width: 0;
+min-height:0;
+padding-bottom: 20px;
+}
+
+.charttext{
+width: 70px;
+margin-top: -117px;
+margin-left: 105px;
+line-height: 13px;
+font-size: 9px;
+}
+
+.charttext span{
+font-size: 13px;
+}
+
+#holder , #holder2 {
+height: 200px;
+}
+
+.OIourapproach {
+    margin: 0 auto;
+    float:none;
+}
+
+.container {
+    height: auto;
+    float: none;
+    display: block;
+    padding: 0;
+}

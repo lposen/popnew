@@ -1,0 +1,254 @@
+#season1000 {
+	background: #000 url('../gfx/season1000/blackboard_top.jpg');
+	color: #fff;
+	padding: 26px 30px 30px;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 300;
+	line-height: 21px;
+	font-size: 14px;
+}
+
+#season1000 #sThanks {
+	width: 515px;
+	height: 395px;
+	background: #fff url('../gfx/season1000/thanks.jpg');
+	margin: 25px auto 50px auto;
+}
+
+#season1000 #sThanks p {
+	color: #8b8b8b;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 24px;
+	padding: 125px 75px 50px;
+	text-align: center;
+}
+
+#season1000 #sThanks span {
+	margin: 0px 70px;
+}
+
+#season1000 #sVideo {
+	width: 764px;
+	margin: 0 auto;
+}
+
+#season1000 #sVimeo {
+	margin: 0 0 14px 0;
+}
+
+#season1000 #sIntro {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0px 0px 20px;
+	color: #eeab00;
+}
+
+#season1000 .leftside {
+	display: none;
+}
+
+#season1000 input,
+#season1000 textarea {
+	padding: 3px 6px;
+	color: #8b8b8b;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-size: 14px;
+}
+
+#season1000 select {
+	font-size: 14px;
+	color: #8b8b8b;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#season1000 hr {
+	width: 930px;
+	height: 4px;
+	margin: 0 auto;
+	border: none;
+	background: #000 url('../gfx/season1000/divider_wide.gif');
+	clear: both;
+}
+
+#season1000 .btn_save {
+	width: 122px;
+	height: 34px;
+	border: none;
+	text-align: -9999px;
+	background: transparent url('../gfx/season1000/btnPromise.png') no-repeat 0% 0%;
+	cursor: pointer;
+	float: right;
+}
+
+#season1000 .btn_save:hover {
+	background-position: 0% 100%;
+}
+
+#season1000 h2 {
+	color: #eeab00;
+	text-transform: uppercase;
+	font-size: 28px;
+	margin: 20px 0px 5px;
+}
+
+#season1000 h2 span {
+	color: #8e8e8e;
+	font-size: 20px;
+}
+
+#season1000 .sTitle {
+	margin: 15px 0;
+}
+
+#season1000 #sOptions {
+	
+}
+
+#season1000 #sOptions #sDonor {
+	display: block;
+	float: left;
+	text-indent: -9999px;
+	width: 273px;
+	height: 188px;
+	margin: 15px 50px 15px 96px;
+}
+
+#season1000 #sOptions #sDonor:hover {
+	background-position: 0 100%;
+}
+
+#season1000 #sDonor {
+	background: transparent url('../gfx/season1000/btn_monthlyDonor.gif') no-repeat 0% 0%;
+}
+
+#season1000 #sOptions p {
+	padding: 10px 30px 0px 20px;
+}
+#season1000 #sOptions p.first {
+	padding-top: 50px;
+}
+
+#season1000 #sWallEntry,
+#season1000 #sWallEntry hr,
+#season1000 #sWallEntries,
+#season1000 #sWallEntries hr {
+	width: 640px;
+}
+
+#season1000 #sWallEntries .promise {
+	padding: 5px 0 15px;
+}
+
+#season1000 #sWallEntries .promise img.avatar {
+	border: 2px solid #8b8b8b;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	float: left;
+	margin: 0 8px 13px 0;
+}
+
+#season1000 #sWallEntries .promise h3 {
+	line-height: 36px;
+	margin: 0 0 13px 0;
+	text-transform: uppercase;
+	color: #8b8b8b;
+}
+
+#season1000 #sWallEntries .promise p {
+	display: block;
+	overflow: hidden;
+	padding: 0px 0px 15px;
+}
+
+#season1000 #sWallEntry .pods_form {
+	margin: 15px 0 0;
+}
+
+#season1000 #sWallEntry .rightside.name,
+#season1000 #sWallEntry .rightside.lname {
+	padding: 15px 0 0;
+	float: left;
+	width: 250px;
+}
+
+#season1000 #sWallEntry .rightside.email {
+	padding: 0;
+	width: 250px;
+}
+
+#season1000 #sWallEntry .leftside.optin {
+	display: block;
+	width: 600px;
+	line-height: 18px;
+}
+
+#season1000 #sWallEntry .rightside.optin {
+	width: 25px;
+	line-height: 18px;
+}
+
+#season1000 #sWallEntry .rightside.optin input {
+	border: none;
+}
+
+#season1000 #sWallEntry .rightside.dobmm,
+#season1000 #sWallEntry .rightside.dobdd,
+#season1000 #sWallEntry .rightside.dobyyyy {
+	float: left;
+	width: 110px;
+}
+#season1000 #sWallEntry .rightside.dobmm select,
+#season1000 #sWallEntry .rightside.dobdd select,
+#season1000 #sWallEntry .rightside.dobyyyy select {
+	width: 100px;
+}
+
+#season1000 #sWallEntry .rightside.promise {
+	width: 99%;
+}
+
+#season1000 #sWallEntry .rightside.gender {
+	clear: both;
+	overflow: hidden;
+}
+
+#season1000 #sWallEntry .sLabel {
+	margin: 15px 0 5px;
+	display: block;
+}
+
+#season1000 .pager a {
+	text-decoration: none;
+}
+
+#season1000 p.error {
+	border-left: 5px solid red;
+	color: #EEAB00;
+	font-weight: bold;
+	padding: 0px 0px 0px 5px;
+	margin: 25px 0px 0px;
+}
+
+#season1000 .sButton {
+	background: url('../gfx/loginSubmitBg.png') no-repeat;
+	color: #898989;
+	float: left;
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 117px;
+	cursor: pointer;
+}
+
+#season1000 .sButton:hover {
+	color: #000;
+}

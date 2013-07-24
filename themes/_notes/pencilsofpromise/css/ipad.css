@@ -1,0 +1,25 @@
+body {
+	background: #fff;
+}
+#footer .tl, #footer .tr, #footer .bl, #footer .br {
+	display: none;
+}
+#search-box #search-input {
+	-webkit-appearance:caret;
+}
+#search-box #search-submit {
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin: 0 3px 0px 0px;
+	padding: 0;
+	border: none;
+	background: transparent url("gfx/gotoPage.png") no-repeat 0% 0%;
+}
+#header #friends .counter .numbers {
+	margin-top: 33px;
+}
+
+#season1000 select {
+	color: #000 !important;
+}
