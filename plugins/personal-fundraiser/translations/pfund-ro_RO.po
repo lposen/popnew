@@ -1,0 +1,910 @@
+# Copyright 2013 CURE International  (email : info@cure.org)
+# This file is distributed under the same license as the Personal Fundraiser package.
+# John Kleinschmidt jk@cure.org, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Personal Fundraiser 0.7.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-19 15:43-0500\n"
+"PO-Revision-Date: 2013-02-19 15:43-0500\n"
+"Last-Translator: John Kleinschmidt <jk@cure.org>\n"
+"Language-Team: Web Geeks\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: Romania\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin.php:56
+msgid "Campaign must be published before donations can be accepted."
+msgstr "Campania trebuie publicate înainte de Donaţiile pot fi acceptate."
+
+#: includes/admin.php:86
+msgid "Personal Fundraiser Options"
+msgstr "Opţiuni de strângere de fonduri personale"
+
+#: includes/admin.php:89
+msgid "Campaign Slug"
+msgstr "Campania Slug"
+
+#: includes/admin.php:100
+msgid "Use Campaign Listing Page"
+msgstr "Utilizaţi pagina de cota de campanie"
+
+#: includes/admin.php:112
+msgid "Cause Slug"
+msgstr "Cauza Slug"
+
+#: includes/admin.php:123
+msgid "Use Cause Listing Page"
+msgstr "Utilizaţi pagina de cota de cauza"
+
+#: includes/admin.php:136
+msgid "Currency Symbol"
+msgstr "Simbol monetar"
+
+#: includes/admin.php:147
+msgid "Date Format"
+msgstr "Format dată"
+
+#: includes/admin.php:158
+msgid "Campaign Creation Options"
+msgstr "Campania crearea opţiuni"
+
+#: includes/admin.php:164
+msgid "Login Required to Create"
+msgstr "Login necesare pentru a crea"
+
+#: includes/admin.php:176
+msgid "Allow Users To Register"
+msgstr "Permite utilizatorilor să registru"
+
+#: includes/admin.php:188
+msgid "Campaigns Require Approval"
+msgstr "Campanii necesită aprobare"
+
+#: includes/admin.php:200
+msgid "User Roles that can submit campaigns"
+msgstr "Roluri de utilizator care poate remite campanii"
+
+#: includes/admin.php:211
+msgid "PayPal Options"
+msgstr "Opţiuni de PayPal"
+
+#: includes/admin.php:217
+msgid "Donate Button Code"
+msgstr "Dona butonul codul"
+
+#: includes/admin.php:228
+msgid "Payment Data Transfer Token"
+msgstr "Transferul de date de plată simbolică"
+
+#: includes/admin.php:240
+msgid "Use PayPal Sandbox"
+msgstr "Utilizaţi PayPal Sandbox"
+
+#: includes/admin.php:255
+msgid "Authorize.Net Options"
+msgstr "Authorize.net opţiuni"
+
+#: includes/admin.php:261
+msgid "API Login ID"
+msgstr "API Login ID-ul"
+
+#: includes/admin.php:272
+msgid "Transaction Key"
+msgstr "Cheia pentru tranzacţie"
+
+#: includes/admin.php:283
+msgid "Product/Donation name (for Authorize.Net reports)"
+msgstr "Nume produs/donatie (pentru Authorize.Net rapoarte)"
+
+#: includes/admin.php:295
+msgid "Use SSL (Required for Authorize.Net - only turn off for testing)"
+msgstr "Utilizarea SSL (necesară pentru Authorize.Net - numai turn off pentru testare)"
+
+#: includes/admin.php:308
+msgid "Test Mode (Requires Authorize.Net Test Account)"
+msgstr "Test modul (necesită testare Authorize.Net cont)"
+
+#: includes/admin.php:321
+msgid "MailChimp Options"
+msgstr "MailChimp opţiuni"
+
+#: includes/admin.php:328
+msgid "Use MailChimp to send emails"
+msgstr "Utilizaţi MailChimp pentru a trimite email-uri"
+
+#: includes/admin.php:340
+msgid "MailChimp API key"
+msgstr "MailChimp API-cheie"
+
+#: includes/admin.php:352
+msgid "Campaign Approval Email ID"
+msgstr "Campania aprobarea E-mail ID-ul"
+
+#: includes/admin.php:363
+msgid "Campaign Donation Email ID"
+msgstr "Campania donatie E-mail ID-ul"
+
+#: includes/admin.php:374
+msgid "Goal Reached Email ID"
+msgstr "Scopul ajuns E-mail ID-ul"
+
+#: includes/admin.php:385
+msgid "Personal Fundraiser Fields"
+msgstr "Câmpurile personale de strângere de fonduri"
+
+#: includes/admin.php:407
+msgid "Personal Fundraiser Settings"
+msgstr "Setări personale de strângere de fonduri"
+
+#: includes/admin.php:407
+#: includes/admin.php:708
+msgid "Personal Fundraiser"
+msgstr "Strângere de fonduri personale"
+
+#: includes/admin.php:410
+#: includes/admin.php:413
+msgid "Personal Fundraising fields"
+msgstr "Câmpurile personale de strângere de fonduri"
+
+#: includes/admin.php:411
+msgid "Donation Listing"
+msgstr "Cota de donatie"
+
+#: includes/admin.php:412
+msgid "Add Donation"
+msgstr "Adăugaţi donatie"
+
+#: includes/admin.php:441
+#: includes/admin.php:455
+#: includes/setup.php:361
+msgid "Cause"
+msgstr "Cauza"
+
+#: includes/admin.php:456
+msgid "User"
+msgstr "Utilizator"
+
+#: includes/admin.php:457
+#: includes/setup.php:60
+msgid "Goal"
+msgstr "Obiectiv"
+
+#: includes/admin.php:458
+#: includes/user.php:730
+msgid "Raised"
+msgstr "Ridicat"
+
+#: includes/admin.php:482
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Editare &#8220;%s&#8221;"
+
+#: includes/admin.php:548
+msgid "Cause Description"
+msgstr "Cauza Descriere"
+
+#: includes/admin.php:552
+msgid "Default Goal"
+msgstr "Scopul implicit"
+
+#: includes/admin.php:559
+msgid "Cause Image"
+msgstr "Cauza imagine"
+
+#: includes/admin.php:582
+msgid "Define your fields for personal fundraisers"
+msgstr "Define câmpurile pentru colectori de fonduri personale"
+
+#: includes/admin.php:605
+#: includes/user.php:788
+#: includes/user.php:847
+#, php-format
+msgid "Dear %s,"
+msgstr "Dragi % s,"
+
+#: includes/admin.php:606
+#, php-format
+msgid "Your campaign, %s has been approved."
+msgstr "Campania, %s a fost aprobat."
+
+#: includes/admin.php:607
+#: includes/user.php:807
+#: includes/user.php:852
+#, php-format
+msgid "You can view your campaign at: %s."
+msgstr "Aveţi posibilitatea să vizualizaţi campanie la: % s."
+
+#: includes/admin.php:608
+msgid "Your campaign has been approved"
+msgstr "Campania a fost aprobat"
+
+#: includes/admin.php:657
+msgid "MailChimp settings for personal fundraiser"
+msgstr "MailChimp setările pentru personal fundraiser"
+
+#: includes/admin.php:667
+msgid "General settings for personal fundraiser"
+msgstr "Setări generale pentru personal fundraiser"
+
+#: includes/admin.php:732
+msgid "PayPal settings for personal fundraiser"
+msgstr "PayPal setările pentru personal fundraiser"
+
+#: includes/admin.php:739
+msgid "Settings to determine who can create or submit campaigns"
+msgstr "Setări pentru a determina care poate crea sau prezintă campanii"
+
+#: includes/admin.php:747
+msgid "Authorize.Net settings for personal fundraiser"
+msgstr "Authorize.net setările pentru personal fundraiser"
+
+#: includes/admin.php:759
+msgid "Settings"
+msgstr "Setări"
+
+#: includes/admin.php:775
+#, php-format
+msgid "Cause updated. <a href=\"%s\">View cause</a>"
+msgstr "Cauza actualizat. <a href=\"%s\">Vizualiza cauza</a>"
+
+#: includes/admin.php:776
+msgid "Cause updated."
+msgstr "Cauza actualizate."
+
+#: includes/admin.php:777
+#, php-format
+msgid "Cause published. <a href=\"%s\">View cause</a>"
+msgstr "Cauza publicat. <a href=\"%s\">Vizualiza cauza</a>"
+
+#: includes/admin.php:778
+#, php-format
+msgid "Cause draft updated. <a target=\"_blank\" href=\"%s\">Preview cause</a>"
+msgstr "Cauza proiectului de actualizare. <a target=\"_blank\" href=\"%s\">Examina cauza</a>"
+
+#: includes/admin.php:781
+#, php-format
+msgid "Campaign updated. <a href=\"%s\">View campaign</a>"
+msgstr "Campania actualizat. <a href=\"%s\">Vizualiza campanie</a>"
+
+#: includes/admin.php:782
+msgid "Campaign updated."
+msgstr "Campania actualizate."
+
+#: includes/admin.php:783
+#, php-format
+msgid "Campaign published. <a href=\"%s\">View campaign</a>"
+msgstr "Campania publicat. <a href=\"%s\">Vizualiza campanie</a>"
+
+#: includes/admin.php:784
+#, php-format
+msgid "Campaign draft updated. <a target=\"_blank\" href=\"%s\">Preview campaign</a>"
+msgstr "Schiţă de campanie actualizat. <a target=\"_blank\" href=\"%s\">Preview campanie</a>"
+
+#: includes/admin.php:785
+msgid "Donation added."
+msgstr "Donarea de adăugat."
+
+#: includes/admin.php:850
+msgid "No donations yet."
+msgstr "Donaţiile nu încă."
+
+#: includes/admin.php:866
+msgid "Show donations"
+msgstr "Donaţii Arată"
+
+#: includes/admin.php:867
+msgid "Download CSV"
+msgstr "Descarca CSV"
+
+#: includes/admin.php:871
+msgid "Show more donations"
+msgstr "Arată mai multe donaţii"
+
+#: includes/admin.php:872
+msgid "No more donations found."
+msgstr "Nu mai multe donaţii găsit."
+
+#: includes/admin.php:913
+msgid "Label"
+msgstr "Eticheta"
+
+#: includes/admin.php:914
+msgid "Description"
+msgstr "Descriere"
+
+#: includes/admin.php:915
+msgid "Type"
+msgstr "Tip"
+
+#: includes/admin.php:916
+msgid "Data"
+msgstr "Date"
+
+#: includes/admin.php:917
+msgid "Required"
+msgstr "Necesare"
+
+#: includes/admin.php:918
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/admin.php:919
+msgid "Actions"
+msgstr "Acţiuni"
+
+#: includes/admin.php:937
+msgid "Add New Field"
+msgstr "Adăugare câmp nou"
+
+#: includes/admin.php:952
+msgid "Date Selector"
+msgstr "Selectorul de dată"
+
+#: includes/admin.php:953
+msgid "Large Text Input (textarea)"
+msgstr "Mare intrare de Text (textarea)"
+
+#: includes/admin.php:954
+msgid "Image"
+msgstr "Imagine"
+
+#: includes/admin.php:955
+msgid "Select Dropdown"
+msgstr "Selectaţi listă verticală"
+
+#: includes/admin.php:956
+msgid "Text Input"
+msgstr "Introducere a textului"
+
+#: includes/admin.php:957
+msgid "Fixed Input"
+msgstr "Intrare fixe"
+
+#: includes/admin.php:958
+msgid "User Email"
+msgstr "E-mail utilizator"
+
+#: includes/admin.php:959
+msgid "User Display Name"
+msgstr "Utilizator nume afişat"
+
+#: includes/admin.php:977
+msgid "Campaign URL slug"
+msgstr "Slug URL-ul de campanie"
+
+#: includes/admin.php:980
+msgid "Campaign Title"
+msgstr "Titlul de campanie"
+
+#: includes/admin.php:983
+#: includes/setup.php:54
+#: includes/setup.php:136
+msgid "End Date"
+msgstr "Data de terminare"
+
+#: includes/admin.php:986
+msgid "User Goal"
+msgstr "Scopul utilizator"
+
+#: includes/admin.php:989
+#: includes/setup.php:66
+msgid "Total Raised"
+msgstr "Total ridicat"
+
+#: includes/admin.php:992
+#: includes/setup.php:72
+#: includes/setup.php:145
+msgid "Giver Tally"
+msgstr "Tally dătătorul"
+
+#: includes/admin.php:1030
+#: includes/user.php:545
+msgid "Edit"
+msgstr "Editare"
+
+#: includes/admin.php:1034
+msgid "Update"
+msgstr "Actualizare"
+
+#: includes/admin.php:1046
+msgid "Yes"
+msgstr "da"
+
+#: includes/functions.php:37
+msgid "You are not permitted to perform this action."
+msgstr "Tu nu sunt permise pentru a efectua această acţiune."
+
+#: includes/functions.php:231
+msgid "Error: Please enter a valid Credit Card number."
+msgstr "Eroare: Vă rugăm să introduceţi un număr de Card de Credit valabil."
+
+#: includes/functions.php:233
+msgid "Error: Please enter a donation amount."
+msgstr "Eroare: Vă rugăm să introduceţi o sumă de donatie."
+
+#: includes/functions.php:235
+msgid "Error: Please enter a valid email address."
+msgstr "Eroare: Vă rugăm să introduceţi o adresă de e-mail validă."
+
+#: includes/functions.php:237
+msgid "Error: Please enter your first name."
+msgstr "Eroare: Vă rugăm introduceţi numele dvs."
+
+#: includes/functions.php:239
+msgid "Error: Please enter your last name."
+msgstr "Eroare: Vă rugăm să introduceţi numele ultima."
+
+#: includes/functions.php:241
+msgid "Error: Please enter your address."
+msgstr "Eroare: Vă rugăm să introduceţi adresa."
+
+#: includes/functions.php:243
+msgid "Error: Please enter your city."
+msgstr "Eroare: Vă rugăm introduceţi oraşul tău."
+
+#: includes/functions.php:245
+msgid "Error: Please enter your zip code."
+msgstr "Eroare: Vă rugăm introduceţi codul zip."
+
+#: includes/functions.php:309
+msgid "This credit card has been declined.  Please use another form of payment."
+msgstr "Această carte de credit a fost refuzat.  Vă rugăm să utilizaţi o altă formă de plată."
+
+#: includes/functions.php:322
+msgid "  Please try your donation again."
+msgstr "  Vă rugăm să încercaţi donatia ta din nou."
+
+#: includes/functions.php:329
+#, php-format
+msgid "There was an error processing the transaction. Here is the error message: %s"
+msgstr "Eroare la prelucrarea tranzacţia. Aici este mesajul de eroare: %s"
+
+#: includes/setup.php:42
+msgid "Title"
+msgstr "Titlul"
+
+#: includes/setup.php:43
+msgid "The title of your campaign"
+msgstr "Titlul de campanie"
+
+#: includes/setup.php:48
+msgid "URL"
+msgstr "URL-UL"
+
+#: includes/setup.php:49
+msgid "The URL for your campaign"
+msgstr "URL-ul pentru campania dvs."
+
+#: includes/setup.php:55
+#: includes/setup.php:137
+msgid "The date your campaign ends"
+msgstr "Data campania dumneavoastră se termină"
+
+#: includes/setup.php:61
+msgid "The amount you hope to raise"
+msgstr "Suma vă speranţa de a ridica"
+
+#: includes/setup.php:67
+msgid "Total donations received"
+msgstr "Total donaţii primit"
+
+#: includes/setup.php:73
+#: includes/setup.php:146
+msgid "The number of unique givers for the campaign."
+msgstr "Numărul de donatori unică pentru campanie."
+
+#: includes/setup.php:88
+msgid "Causes Listing"
+msgstr "Cauzele listarea"
+
+#: includes/setup.php:103
+msgid "Campaign Listing"
+msgstr "Campania de listare"
+
+#: includes/setup.php:316
+msgid "funding goal"
+msgstr "scopul finanţare"
+
+#: includes/setup.php:317
+msgid "raised"
+msgstr "ridicat"
+
+#: includes/setup.php:318
+msgid "givers"
+msgstr "donatori"
+
+#: includes/setup.php:319
+msgid "days left"
+msgstr "zile rămase"
+
+#: includes/setup.php:322
+msgid "I have an event on [pfund-end-date] that I am involved with for my cause."
+msgstr "Am un eveniment [pfund-end-data] care sunt implicate cu pentru cauza mea."
+
+#: includes/setup.php:323
+msgid "I am hoping to raise $[pfund-gift-goal] for my cause."
+msgstr "Sunt în speranţa de a ridica $[pfund-cadou-obiectiv] pentru cauza mea."
+
+#: includes/setup.php:324
+msgid "So far I have raised $[pfund-gift-tally].  If you would like to contribute to my cause, click on the donate button below:"
+msgstr "Până în prezent am au crescut $[pfund-cadou-tally].  Dacă doriţi să contribuie la cauza meu, faceţi clic pe butonul donate de mai jos:"
+
+#: includes/setup.php:331
+msgid "Help Raise Money For My Cause"
+msgstr "Ajutor strange bani pentru meu cauza"
+
+#: includes/setup.php:358
+#: includes/setup.php:360
+msgid "Causes"
+msgstr "Cauzele"
+
+#: includes/setup.php:362
+#: includes/setup.php:363
+msgid "Add New Cause"
+msgstr "Adăugaţi noi cauza"
+
+#: includes/setup.php:364
+msgid "Edit Cause"
+msgstr "Editare cauza"
+
+#: includes/setup.php:365
+msgid "View Cause"
+msgstr "Cauza vizualizare"
+
+#: includes/setup.php:366
+msgid "Search Causes"
+msgstr "Cauze de căutare"
+
+#: includes/setup.php:367
+msgid "No Causes Found"
+msgstr "Nu cauzele găsit"
+
+#: includes/setup.php:368
+msgid "No Causes Found In Trash"
+msgstr "Nu cauzele găsite în coşul de gunoi"
+
+#: includes/setup.php:381
+#: includes/setup.php:383
+msgid "Campaigns"
+msgstr "Campanii"
+
+#: includes/setup.php:384
+msgid "Campaign"
+msgstr "Campanie"
+
+#: includes/setup.php:385
+#: includes/setup.php:386
+msgid "Add New Campaign"
+msgstr "Adăugaţi noua campanie"
+
+#: includes/setup.php:387
+msgid "Edit Campaign"
+msgstr "Editare campanie"
+
+#: includes/setup.php:388
+msgid "View Campaign"
+msgstr "Vizualizare campanie"
+
+#: includes/setup.php:389
+msgid "Search Campaigns"
+msgstr "Campanii de căutare"
+
+#: includes/setup.php:390
+msgid "No Campaigns Found"
+msgstr "Nu campanii găsit"
+
+#: includes/setup.php:391
+msgid "No Campaigns Found In Trash"
+msgstr "Nu campanii găsite în coşul de gunoi"
+
+#: includes/user.php:83
+#, php-format
+msgid "An anonymous gift of %s%s was received."
+msgstr "Un cadou anonim de % s % s a fost primit."
+
+#: includes/user.php:95
+#, php-format
+msgid "%s %s donated %s%s."
+msgstr "%s %s donat % s % s."
+
+#: includes/user.php:207
+msgid "Create My Page"
+msgstr "Creaţi pagina"
+
+#: includes/user.php:249
+msgid "Post a Comment"
+msgstr "Posta un comentariu"
+
+#: includes/user.php:255
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Tu trebuie să fie <a href=\"%s\"> logat</a> pentru a posta un comentariu."
+
+#: includes/user.php:263
+msgid "Name"
+msgstr "nume"
+
+#: includes/user.php:265
+msgid "Mail (will not be published)"
+msgstr "Mail (nu va fi publicat)"
+
+#: includes/user.php:328
+msgid "Cancel"
+msgstr "Revocare"
+
+#: includes/user.php:329
+msgid "Continue Editing"
+msgstr "Continua editarea"
+
+#: includes/user.php:330
+msgid "This email address is already registered"
+msgstr "Această adresă de e-mail este deja înregistrată"
+
+#: includes/user.php:331
+msgid "Invalid email address"
+msgstr "Adresa de e-mail nevalid"
+
+#: includes/user.php:332
+msgid "Login"
+msgstr "Login"
+
+#: includes/user.php:333
+#: includes/user.php:1474
+msgid "Mask password"
+msgstr "Mască parola"
+
+#: includes/user.php:334
+msgid "Ok"
+msgstr "ok"
+
+#: includes/user.php:335
+msgid "Processing..."
+msgstr "Prelucrare..."
+
+#: includes/user.php:336
+msgid "Register"
+msgstr "Înregistrează-te"
+
+#: includes/user.php:337
+#, fuzzy, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you.  Please contact <a href=\"mailto:%s\">us</a>."
+msgstr "<strong> EROARE </strong>: Nu sa putut vă înregistraţi. Va rugam sa contactati <a href=\"mailto:%s\"> ne </a>."
+
+#: includes/user.php:338
+msgid "Please wait while your registration is processed."
+msgstr "Vă rugăm să aşteptaţi în timp ce înregistrarea dumneavoastră este procesată."
+
+#: includes/user.php:339
+msgid "Your campaign has not been saved.  If you would like to save your campaign, stay on this page, click on the Edit button and then click on the Ok button."
+msgstr "Campania dumneavoastră nu a fost salvată.  Dacă doriţi să salvaţi campania dvs., staţi pe această pagină, faceţi clic pe butonul Editare şi apoi faceţi clic pe butonul Ok."
+
+#: includes/user.php:340
+#: includes/user.php:1166
+msgid "Thank you for your donation!"
+msgstr "Vă mulţumim pentru donatia ta!"
+
+#: includes/user.php:341
+msgid "Unmask password"
+msgstr "Demasca parola"
+
+#: includes/user.php:342
+msgid "This username is already registered"
+msgstr "Acest nume de utilizator este deja înregistrat"
+
+#: includes/user.php:408
+msgid "Anonymous gift"
+msgstr "Cadou anonim"
+
+#: includes/user.php:444
+#: includes/user.php:1487
+msgid "First Name"
+msgstr "Prenume"
+
+#: includes/user.php:445
+#: includes/user.php:1492
+msgid "Last Name"
+msgstr "Nume de familie"
+
+#: includes/user.php:446
+msgid "Address"
+msgstr "Adresa"
+
+#: includes/user.php:447
+msgid "City"
+msgstr "City"
+
+#: includes/user.php:449
+msgid "Zip"
+msgstr "Zip"
+
+#: includes/user.php:450
+#: includes/user.php:1482
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/user.php:451
+msgid "Credit Card Number"
+msgstr "Numărul cardului de credit"
+
+#: includes/user.php:454
+msgid "Security Code"
+msgstr "Codul de securitate"
+
+#: includes/user.php:455
+msgid "Donation Amount"
+msgstr "Suma de donatie"
+
+#: includes/user.php:459
+msgid "Donate"
+msgstr "Dona"
+
+#: includes/user.php:462
+msgid "Donations are processed securely via Authorize.Net"
+msgstr "Donaţiile sunt prelucrate în siguranţă prin intermediul Authorize.Net"
+
+#: includes/user.php:537
+msgid "Please wait while we validate this location"
+msgstr "Vă rugăm să aşteptaţi în timp ce putem valida această locaţie"
+
+#: includes/user.php:538
+msgid "* This location is already taken"
+msgstr "* Această locaţie este deja luate"
+
+#: includes/user.php:735
+msgid "Goal:"
+msgstr "Obiectiv:"
+
+#: includes/user.php:791
+#, php-format
+msgid "An anonymous gift of %s%s has been received for your campaign, %s."
+msgstr "Un cadou anonim % s % s a fost primit pentru campania dumneavoastră, % s."
+
+#: includes/user.php:796
+#, php-format
+msgid "%s %s donated %s%s to your campaign, %s."
+msgstr "%s %s donat % s % s să campania dvs., % s."
+
+#: includes/user.php:802
+#, php-format
+msgid "If you would like to thank %s, you can email %s at %s."
+msgstr "Dacă aţi dori să mulţumesc % s, aveţi posibilitatea de e-mail %s la % s."
+
+#: includes/user.php:808
+msgid "A donation has been received"
+msgstr "S-a primit o donatie"
+
+#: includes/user.php:849
+#, php-format
+msgid "Congratulations!  Your campaign goal of %s has been met!"
+msgstr "Felicitări!  Scopul campaniei de %s a fost întâlnit!"
+
+#: includes/user.php:853
+msgid "Campaign goal met!"
+msgstr "Scopul campaniei întâlnit!"
+
+#: includes/user.php:926
+msgid "Expiration Month:"
+msgstr "Expirare lună:"
+
+#: includes/user.php:944
+#, php-format
+msgid "You can donate to %s with confidence.  "
+msgstr "Puteţi dona la %s cu încredere.  "
+
+#: includes/user.php:945
+msgid "We have partnered with <a target=\"_blank\" href=\"http://www.authorize.net\">Authorize.Net</a>, a leading payment gateway since 1996, to accept credit cards and electronic check payments safely and securely for our donors."
+msgstr "Ne-am parteneriat cu <a target=\"_blank\" href=\"http://www.authorize.net\">Authorize.Net</a>, un gateway de plată lider din 1996, pentru a accepta carduri de credit şi plăţi electronice selectare în condiţii de siguranţă şi sigur pentru donatorii nostri."
+
+#: includes/user.php:948
+msgid "The Authorize.Net Payment Gateway manages the complex routing of sensitive customer information through the electronic check and credit card processing networks.  "
+msgstr "Gateway de plată Authorize.Net gestionează circuit complex de informaţii sensibile client prin selectare electronice şi de reţele de prelucrare a cardului de credit.  "
+
+#: includes/user.php:949
+msgid "See an <a target=\"_blank\" href=\"http://www.authorize.net/resources/howitworksdiagram/\">online payments diagram</a> to see how it works.  "
+msgstr "Vezi un <a target=\"_blank\" href=\"http://www.authorize.net/resources/howitworksdiagram/\">diagrama de plăţi online</a> pentru a vedea cum funcţionează.  "
+
+#: includes/user.php:951
+msgid "The company adheres to strict industry standards for payment processing, including:"
+msgstr "Compania aderă la standardele industriei stricte de plată procesare, inclusiv:"
+
+#: includes/user.php:953
+msgid "128-bit Secure Sockets Layer (SSL) technology for secure Internet Protocol (IP) transactions."
+msgstr "128-bit tehnologia Secure Sockets Layer (SSL) pentru tranzacții securizate de Internet Protocol (IP)."
+
+#: includes/user.php:954
+msgid "Industry leading encryption hardware and software methods and security protocols to protect customer information."
+msgstr "Industria lider criptare hardware şi software-ul metode și protocoale de securitate pentru a proteja informaţiile despre client."
+
+#: includes/user.php:955
+msgid "Compliance with the Payment Card Industry Data Security Standard (PCI DSS)."
+msgstr "Conformitatea cu standardul de securitate industria cardului plată (PCI DSS)."
+
+#: includes/user.php:957
+msgid "For additional information regarding the privacy of your sensitive cardholder data, please read the <a target=\"_blank\" href=\"http://www.authorize.net/company/privacy/\">Authorize.Net Privacy Policy</a>."
+msgstr "Pentru informaţii suplimentare privind confidenţialitatea datelor posesorilor de carduri sensibile, vă rugăm să citiţi <a target=\"_blank\" href=\"http://www.authorize.net/company/privacy/\">Politica de confidenţialitate Authorize.Net</a>."
+
+#: includes/user.php:1023
+msgid "State:"
+msgstr "Statul:"
+
+#: includes/user.php:1040
+msgid "Expiration Year:"
+msgstr "Expirarea an:"
+
+#: includes/user.php:1058
+msgid "Campaign List"
+msgstr "Lista de campanie"
+
+#: includes/user.php:1071
+msgid "Cause List"
+msgstr "Cauza lista"
+
+#: includes/user.php:1422
+#, php-format
+msgid "Your campaign has been created and is now available for public viewing at <a href=\"%s\">%s</a>."
+msgstr "Campania dvs. a fost creat şi este acum disponibil pentru vizualizare publică la <a href=\"%s\">%s</a>."
+
+#: includes/user.php:1424
+msgid "Your campaign has been created and submitted for approval.  Once your campaign has been approved you will receive an email notifying you."
+msgstr "Campania a fost creat şi prezentat pentru omologare.  Odată ce campanie a fost aprobat veţi primi un e-mail de notificare vă."
+
+#: includes/user.php:1426
+#, php-format
+msgid "Your campaign has been created. %s"
+msgstr "Campania a fost creat. %s"
+
+#: includes/user.php:1436
+#, php-format
+msgid "Your campaign has been updated and is available for public viewing at <a href=\"%s\">%s</a>."
+msgstr "Campania dvs. a fost actualizat şi este disponibil pentru vizionare publicului la <a href=\"%s\">%s</a>."
+
+#: includes/user.php:1438
+#, php-format
+msgid "Your campaign has been updated and submitted for approval.  Once your campaign has been approved you will receive an email notifying you.  Until then you can access your campaign at: <a href=\"%s\">%s</a>"
+msgstr "Campania dvs. a fost actualizat si depus pentru aprobare. Odată ce campania dvs. a fost aprobat, veţi primi un email de notificare. Până atunci, puteţi accesa campaniei dvs. la: <a href=\"%s\">%s</a>"
+
+#: includes/user.php:1440
+#, php-format
+msgid "Your campaign has been updated.  %s"
+msgstr "Campania dumneavoastră a fost actualizat.  %s"
+
+#: includes/user.php:1465
+#, php-format
+msgid "To make this campaign available for others to view, please <a id=\"pfund-login-link\" href=\"%s\">Login</a> or <a id=\"pfund-register-link\" href=\"#\">Register</a>."
+msgstr "Pentru a face această campanie disponibil pentru alţii pentru a vizualiza, vă rog<a id=\"pfund-login-link\" href=\"%s\">Login</a> or <a id=\"pfund-register-link\" href=\"#\">Înregistraţi</a>."
+
+#: includes/user.php:1471
+msgid "Username"
+msgstr "Numele de utilizator"
+
+#: includes/user.php:1476
+msgid "Password"
+msgstr "Parola"
+
+#: includes/user.php:1505
+#, php-format
+msgid "To make this campaign available for others to view, please <a id=\"pfund-login-link\" href=\"%s\">Login</a>."
+msgstr "Pentru a face această campanie disponibil pentru alţii pentru a vizualiza, vă rog<a id=\"pfund-login-link\" href=\"%s\">Login</a>."
+
+#: includes/class-pfund-donor-list-table.php:37
+msgid "Donor Information"
+msgstr "Informaţiile donatorului"
+
+#: includes/class-pfund-donor-list-table.php:38
+msgid "Comment"
+msgstr "Comentariu"
+
+#: includes/class-pfund-donor-list-table.php:39
+msgid "Amount"
+msgstr "Suma"
+
+#~ msgid "Edit “%s”"
+#~ msgstr "Editare “ %s ”"
