@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------------------------------------------
+Version 1.0.beta2
+    - Fixed notices
+    - Added extra parameter to differentiate blank submissions from real submissions
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.0.beta1
+    - Fixed notices
+    - Fixed issue with zapier feed being created multiple times
+    - Fixed issue with conditional logic not displaying when creating a new feed
+
+-------------------------------------------------------------------------------------------------------------------
+Version 0.2
+	- Added conditional logic
+	- Updated column names
+	- Added instructional text on Settings page
+	- Added instructional text when adding a new feed
+
+-------------------------------------------------------------------------------------------------------------------
+Version 0.1
+    - Initial creation
